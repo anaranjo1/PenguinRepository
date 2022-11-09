@@ -67,7 +67,7 @@ penguins_mean_bill_female = penguins_female.groupby(["species","sex"])["bill_len
 print(penguins_mean_bill_female)
 
 ```
-#### 6. Como ya sabemos, la variable peso, se encuentra en gramos, la pasaremos a kg. Para ello crearemos una nueva columna llamada body_mass_kg y eliminaremos body_mass_g.
+### 6. Como ya sabemos, la variable peso, se encuentra en gramos, la pasaremos a kg. Para ello crearemos una nueva columna llamada body_mass_kg y eliminaremos body_mass_g.
 
 ```python
 
